@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html class="bodyf" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtube.com clone</title>
+
+    <style>
+        .tumbnie-l {
+            /* cover object  fit
+
+            width: 300px;
+            height: 600px;
+            object-fit: cover;
+            object-position: left; */
+
+            /*
+            object-position:- contain
+
+            width: 300px;
+            height: 300px;
+            object-fit: contain;
+            object-position: top;
+            border: 2px;
+            border-style: solid;
+            border-color: red; */
+
+            width: 300px;
+            display: block;
+
+        }
+
+        .video-title {
+            width: 300px;
+        }
+
+
+        /* .video-author,
+        .video-states{
+            display: inline-block;
+
+        }
+         */
+         .video-preview{
+           width: 300px;
+           /* border: 2px solid; */
+           display: inline-block;
+           vertical-align: top;
+           margin-right: 15px;
+         }
+         .search-bar{
+            display: block;
+         }
+
+
+         .tumbnie-2{
+            width: 300px;
+         }
+         .video-preview-2{
+            width: 300px;
+            display: inline-block ;
+            vertical-align: top;
+            /* this is used for align  our website to the top  */
+         }
+        
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- display property in css :- because of the image and the search bar is in the  same line
+                 in html there are 3 type of element
+                    1, block element:-the entire line (eg.paragraph)
+                    2, inline block element:- only takes up as much space as needed(e.g image and  input element)
+                    3, inline element :-appear with in a line of text(example :- strong  or bold)
+
+
+                    - -->
+    <input class="search-bar" type="text" placeholder="search">
+
+    <!-- note:- div element
+         -is just like a container of the element
+         -by  default a  div element is the block chain -->
+
+    <div class="video-preview">
+        <img class="tumbnie-l" src="tumbniel/tumbniel-1.webp" alt="tumbniel-1">
+
+
+        <!-- css  display property         -->
+
+        <p class="video-title">
+            Taking tech and <strong>AI</strong> on the heels of google I/O.also a daily deliver phone reveval from
+            google
+        </p>
+
+        <p class="video-author">marques brownlse &#10003;</p>
+
+        <p class="video-states">
+            3.4M view &#46; 6 month ago
+        </p>
+    </div>
+    <div class="video-preview-2">
+        <img class="tumbnie-2" src="tumbniel/tumbniel-2.webp" alt="tumbniel-2">
+        <p class="video-title">
+            SURPRISE ከ500 ሰው በላይ ስራ ላስጀምራችሁ | Etubers Network | Make Money Online 2023
+        </p>
+
+        <p class="video-author">Eutubers &#10003;</p>
+
+        <p class="video-states">
+            6.8K views &#46; 8 hours ago 
+        </p>
+    </div>
+
+</body>
+
+</html>

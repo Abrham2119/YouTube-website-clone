@@ -1,0 +1,83 @@
+<!-- flexbox is similar to css grid (but it is more flexiable)
+--note:- the basic difference bettwen flexbox and grid is in the gride when we   change the position of element the layout gonna change buu in  flex-box whe n we change the layout of elemnt the layout of element dosent change-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox grid-practice</title>
+</head>
+<body style="padding-bottom: 100px;">
+    <div style="display: flex; 
+    flex-direction: row;
+    margin-bottom: 30px;">
+        <div style="background-color: lightblue;">div 1 text</div>
+        <div style="background-color: lightpink;">div 2</div>
+    </div>
+    <div style="
+    display: flex;
+    flex-direction: row;">
+        <div style="background-color: lightblue;">div 1 text</div>
+        <div style="background-color: lightpink;">div 2 <p>taller</p></div>
+    </div>
+    <div style="margin-top: 30px;
+    display: flex;
+    flex-direction: row;">
+        <div style="background-color: lightblue; width: 100px;">100px text</div>
+        <div style="background-color: lightpink; flex: 1;">flex 1</div>
+    </div>
+    <div style="margin-top: 30px;
+    display: flex;
+    flex-direction: row;">
+        
+        <div style="background-color: lightblue; flex: 1;">flex 1</div>
+        <div style="background-color: lightpink; width: 100px;">100px text</div>
+        <div style="background-color: lightblue; flex: 2;">flex 2px text</div>
+    </div>
+
+    <!-- justify-content :
+       -start
+       -end
+       -center 
+       -space-bettwen
+       -space aroud
+       -space evenly 
+       -strech -->
+
+    <div style="margin-top: 30px;
+    height: 70px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;">
+        
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style="background-color: lightpink; width: 100px;">100px text</div>
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        
+    </div>
+
+      <!-- align-items:-
+         -strech
+         -start
+         -end
+         -center  -->
+         
+    <div style="margin-top: 30px;
+    height: 70px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;">
+        
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style="background-color: lightpink; width: 100px;">100px text</div>
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,63 @@
+
+        /* To remove duplication of element in css
+                -learn a new concept css spacficity(priority) */
+
+
+                p{
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                }
+        
+                .video-title {
+                    
+                    font-weight: bold;
+                    font-size: 18px;
+                    width: 200px;
+                    line-height: 24px; 
+                    margin-bottom: 5px;
+                }
+                .video-states{
+                    
+                    font-size: 14px;
+                    color: gray;            
+                    margin-bottom: 20px;                 
+                                            
+                }
+                .video-author{
+                    
+                    font-size: 15px;
+                    color: gray;
+                  
+                    margin-bottom: 20px;
+        
+                }
+                .video-description{
+                    
+                    font-size: 14px;
+                    color: gray;
+                    width: 200px;  
+                    line-height: 22px;
+                 
+        
+        
+                   
+                }
+                .apple-text{
+                        background-color: brown;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 14px;
+                        color: white;
+                        text-align: center;
+                        
+        
+        
+                    }
+                    .shop-link:hover{
+                        text-decoration: underline;
+                        cursor: pointer;
+                        
+                    }
+                
